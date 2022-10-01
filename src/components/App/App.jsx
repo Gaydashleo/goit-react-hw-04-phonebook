@@ -17,15 +17,15 @@ export function App() {
 
 
   // Перевіряємо localStorage чи є контакти
-  useEffect(() => {
-    const contactsStorage = localStorage.getItem('contacts');
-    const parsedContacts = JSON.parse(contactsStorage);
-    if (parsedContacts) {
-      setContacts(parsedContacts);
-    } else {
-      return;
-    }
-  }, []);
+  // useEffect(() => {
+  //   const contactsStorage = localStorage.getItem('contacts');
+  //   const parsedContacts = JSON.parse(contactsStorage);
+  //   if (parsedContacts) {
+  //     setContacts(parsedContacts);
+  //   } else {
+  //     return;
+  //   }
+  // }, []);
     
   // Додає контакт в localStorage
   useEffect(() => {
