@@ -34,7 +34,7 @@ export function App() {
 
   // Додає контакт в список
 
-   const addContact = ({ name, number }) => {
+    const addContact = ({ name, number }) => {
     const findName = contacts.find(
       contact => contact.name.toLowerCase() === name.toLowerCase()
     );
